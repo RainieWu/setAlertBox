@@ -1,0 +1,63 @@
+/*
+	author:		吴颖琳
+	contact:	ng.winglam@qq.com
+	date: 		2018.01.12-2018.03.24
+	p.s.:		配合setAlertBox.js使用
+*/
+
+
+.alert-box {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-box-pack: center;
+	-o-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-box-align: center;
+	-o-box-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.alert-box .box {
+	position: relative;
+}
+.alert-box .box .close {
+	display: inline-block;
+	position: absolute;
+}
+.alert-box .box .title,
+.alert-box .box .message,
+.alert-box .box .buttons {
+	text-align: center;
+}
+.alert-box .box .message {
+	overflow: auto;
+}
+.alert-box .box .buttons {
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
